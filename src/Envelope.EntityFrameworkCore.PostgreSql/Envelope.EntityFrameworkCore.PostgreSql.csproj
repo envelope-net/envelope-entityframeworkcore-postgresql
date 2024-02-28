@@ -19,7 +19,7 @@
 		<Authors>Tomas Pilat</Authors>
 		<SignAssembly>true</SignAssembly>
 		<AssemblyOriginatorKeyFile>..\..\Envelope.snk</AssemblyOriginatorKeyFile>
-		<Version>1.0.16</Version>
+		<Version>1.0.19</Version>
 	</PropertyGroup>
 
 	<PropertyGroup>
@@ -36,7 +36,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Envelope.Database.PostgreSql" Version="1.1.17" />
-		<PackageReference Include="Envelope.EntityFrameworkCore" Version="1.1.21" />
+		<PackageReference Include="Envelope.EntityFrameworkCore" Version="1.1.24" />
 		<PackageReference Include="Microsoft.VisualStudio.Threading.Analyzers" Version="17.4.27">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
